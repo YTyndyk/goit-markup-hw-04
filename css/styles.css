@@ -79,7 +79,6 @@ p {
 /* site-nav */
 .header-container {
 	display: flex;
-
 }
 .header-nav {
 	display: flex;
@@ -118,14 +117,24 @@ p {
 .contact-nav {
 	display: flex;
 	margin-left: auto;
+	align-items: center;
 }
 .contacts-nav-item:last-child {
-margin-left: 50px;
+margin-right: 0;
 }
-.contacts-nav-link {
+.icon-tel {
+	margin-right: 10px;
+}
+.icon-tel:hover,
+.icon-tel:focus {
+	stroke: var(--accent-color);
+}
+ .contacts-nav-link {
     display: block;
 	padding-top: 32px;
 	padding-bottom: 32px;
+	margin-right: 30px;
+
 
 	color: var(--primary-text-color);
 	font-weight: 500;
@@ -133,13 +142,16 @@ margin-left: 50px;
 	letter-spacing: 0.02em;
 	background-color: var(--white-color);
 }
+
 .contacts-nav-link:hover {
 	color: var(--accent-color);
 }
 .contacts-nav-link:focus {
 	color: var(--focus-color);
 }
-
+.icon-tel:hover {
+color: var(--accent-color);
+}
 /* герой */
 .hero-title {
 	width: 696px;
@@ -166,7 +178,7 @@ margin-left: 50px;
 	margin-left: auto;
 	margin-right: auto;
 	background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
-	url(../css/bcg/hero.jpg);
+	url(../images/hero.jpg);
 	background-repeat: no-repeat;
 }
 /* секції */
