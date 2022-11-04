@@ -276,11 +276,36 @@ img {
 	font-size: 16px;
 	line-height: 1.19;
 	text-align: center;
-
+margin-bottom: 16px;
 }
 .section-team {
 	color: var(--title-color);
 	background: var(--backgroung-team);
+}
+.socials {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	
+}
+.socials-link {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	background-color: var(--white-color);
+	color: #AFB1B8;
+}
+.socials-link:hover,
+.socials-link:focus {
+	background-color: var(--accent-color);
+	color: var(--white-color);
+}
+.socials-icon {
+	fill: currentColor;
 }
 /* підвал */
 .footer {
