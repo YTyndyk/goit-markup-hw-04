@@ -187,6 +187,18 @@ margin-right: 0;
 .peculiarities-container {
 	display: flex;
 }
+
+.icon-peculiarities {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 270px;
+	height: 120px;
+	background: #F5F4FA;
+border-radius: 4px;
+margin-bottom: 30px;
+padding: 25px 102px;
+}
 .section-title {
 	color: var(--title-color);
 	font-weight: 700;
@@ -341,6 +353,10 @@ color: var(--accent-color);
 	padding-bottom: 60px;
 	background-color: var(--background-footer);
 }
+.footer-container {
+	display: flex;
+	
+}
 .logo-footer-color {
 	color: var(--white-color);
 margin-right: 156px;
@@ -367,12 +383,24 @@ margin-right: 156px;
 	font-weight: 700;
 	line-height: 1.14;
 	text-transform: uppercase;
-	margin-bottom: 10px;
+	margin-bottom: 20px;
+	padding-top: 10px;
 }
-.footer-socials {
+.socials-link-footer {
 	display: flex;
+	justify-content: center;
 	align-items: center;
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	background-color: rgba(255, 255, 255, 0.1);
+	color: 	rgba(255, 255, 255, 1);
 }
+.socials-link-footer:hover,
+.socials-link-footer:focus {
+	background-color: var(--accent-color);
+}
+
 .footer-contacts {
 	font-style: normal;
 	line-height: 1.71;
