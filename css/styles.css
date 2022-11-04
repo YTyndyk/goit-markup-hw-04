@@ -122,19 +122,14 @@ p {
 .contacts-nav-item:last-child {
 margin-right: 0;
 }
-.icon-tel {
-	margin-right: 10px;
-}
-.icon-tel:hover,
-.icon-tel:focus {
-	stroke: var(--accent-color);
-}
+
  .contacts-nav-link {
-    display: block;
+    display: flex;
+	align-items: center;
+	gap: 10px;
 	padding-top: 32px;
 	padding-bottom: 32px;
 	margin-right: 30px;
-
 
 	color: var(--primary-text-color);
 	font-weight: 500;
@@ -149,8 +144,8 @@ margin-right: 0;
 .contacts-nav-link:focus {
 	color: var(--focus-color);
 }
-.icon-tel:hover {
-color: var(--accent-color);
+.header-icon {
+	fill: currentColor;
 }
 /* герой */
 .hero-title {
@@ -340,8 +335,19 @@ display: inline-block;
 	color: rgba(255, 255, 255, 0.6);
 	display: inline-block;
 }
+/*  Постійні клієнти*/
 
-
+.clients {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+}
+.icon {
+	width: 170px;
+	height: 92px;
+	border: 1px solid #AFB1B8;
+    border-radius: 4px;
+}
 /* Кнопка */
 .button-main {
 	color: var(--backgroung-team);
