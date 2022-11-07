@@ -300,12 +300,16 @@ margin-bottom: 16px;
 	gap: 10px;
 	
 }
+.socials-list {
+	width: 44px;
+	height: 44px;
+}
 .socials-link {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 44px;
-	height: 44px;
+	width: 100%;
+	height: 100%;
 	border-radius: 50%;
 	background-color: var(--white-color);
 	color: #AFB1B8;
@@ -325,11 +329,16 @@ margin-bottom: 16px;
 	flex-wrap: wrap;
 	gap: 30px;
 }
+.clients-list {
+	width: 170px;
+	height: 92px;
+}
 .clients-link {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	padding: 15px 31px;
+	width: 100%;
+	height: 100%;
 	color: rgba(175, 177, 184, 1);
 	border: 1px solid #AFB1B8;
 	border-radius: 4px;
@@ -390,8 +399,8 @@ margin-right: 156px;
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: 44px;
-	height: 44px;
+	width: 100%;
+	height: 100%;
 	border-radius: 50%;
 	background-color: rgba(255, 255, 255, 0.1);
 	color: 	rgba(255, 255, 255, 1);
